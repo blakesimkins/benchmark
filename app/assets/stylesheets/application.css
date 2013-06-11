@@ -11,3 +11,18 @@
  *= require_self
  *= require_tree .
  */
+
+.header-global {
+	background: #c0392b;
+	height: 60px;
+}
+.brand-title {
+	font-size: 22px;
+	color: #fff;
+}
+.nav {
+	display: inline-block;
+}
+.nav li {
+	display: inline-block;
+}
