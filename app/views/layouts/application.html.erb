@@ -9,11 +9,11 @@
 <body>
 	<header class="header-global">
 		<section class="container">
-			<a href="#" class="brand-title">Benchmark</a>
+			<%= link_to "Benchmark", statuses_path, class: "brand-title" %>
 			<ul class="nav">
 				<li><%= link_to "All Statuses", statuses_path %></li>
 				<li><%= link_to "Login", new_user_session_path %></li>
-				<li><%= link_to "Create Account", user_session_path %></li>
+				<li><%= link_to "Create Account", new_user_registration_path %></li>
 			</ul>
 		</section>
 	</header>
